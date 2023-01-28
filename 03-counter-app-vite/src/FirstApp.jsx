@@ -1,5 +1,5 @@
 //import { Fragment } from "react";
-
+import propTypes from "prop-types";
 //------------------------------
 
 //LO QUE UTILIZO PARA JSON.STRINGIFY
@@ -17,13 +17,21 @@
 
 //-------------------------------
 
-  export const FirstApp = () => {
-  
+  export const FirstApp = ({tittle, subTitle }) => {
+    
+   // console.log (props);
+
     return (
       <>
-      <h1>Enrique</h1>
+      <h1>{tittle}</h1>
       {/* <code>{ JSON.stringify (newMessage) }</code> */}
-      <p>Soy un subtitulo</p>
+      <p>{subTitle}</p>
       </> 
     );
   } 
+
+
+  FirstApp.propTypes ={
+    tittle: propTypes.string.isRequired,
+    subTitle: propTypes.number,
+  }
