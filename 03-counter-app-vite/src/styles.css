@@ -2,8 +2,14 @@
 
 html, body{
     background-color: #21232A;
-    color: rgb(0, 171, 238);
+    color: rgb(69, 173, 180);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.3rem;
     padding: 70px;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.3rem;
+    margin-right: 5px;
 }

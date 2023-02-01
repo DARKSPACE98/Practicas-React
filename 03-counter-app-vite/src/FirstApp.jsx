@@ -1,5 +1,5 @@
 //import { Fragment } from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 //------------------------------
 
 //LO QUE UTILIZO PARA JSON.STRINGIFY
@@ -16,8 +16,8 @@ import propTypes from "prop-types";
   } */
 
 //-------------------------------
-
-  export const FirstApp = ({tittle, subTitle }) => {
+//FUNCTIOONAL COMPONENT 
+  export const FirstApp = ({tittle, subTitle, name}) => {
     
    // console.log (props);
 
@@ -26,12 +26,19 @@ import propTypes from "prop-types";
       <h1>{tittle}</h1>
       {/* <code>{ JSON.stringify (newMessage) }</code> */}
       <p>{subTitle}</p>
+      <p>{name}</p>
       </> 
     );
   } 
 
 
   FirstApp.propTypes ={
-    tittle: propTypes.string.isRequired,
-    subTitle: propTypes.number,
+    tittle: PropTypes.string.isRequired,
+    subTitle: PropTypes.string,
+  }
+//ctrl shift p para sort lines 
+  FirstApp.defaultProps ={
+    name: 'Enrique Barraza!!!',
+    subTitle: 'No hay subtitulo',
+    tittle:'No hay titulo',
   }
