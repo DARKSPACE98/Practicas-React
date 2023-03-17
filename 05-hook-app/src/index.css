@@ -1,7 +1,7 @@
 body {
     color: rgb(136, 70, 212);
     padding: 20px;
-    background-color: rgb(38, 33, 46);
+    background-color: rgb(38, 36, 44);
 }
 
 button{
@@ -10,7 +10,8 @@ button{
 
 .btn{
     background-color: blueviolet;
-    border-color: black;
+    border-color: rgb(27, 20, 29);
+    color: white;
 }
 
 img{

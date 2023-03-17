@@ -1,7 +1,8 @@
 import { useCounter, useFetch } from "../hooks";
 import {LoadingQuote, Pokemon} from "../03-example";
 
-export const MultipleCustomHook = () => {
+
+export const Layout = () => {
  
     const { counter, increment, decrement } = useCounter();
 

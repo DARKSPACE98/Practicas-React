@@ -23,7 +23,7 @@ export const Message = () => {
 
   return (
     <>
-        <h3>Ese usuario ya existe pendejo</h3> 
+        <h3>Ese usuario ya existe</h3> 
         { JSON.stringify(coords)}   
     </>
   )
