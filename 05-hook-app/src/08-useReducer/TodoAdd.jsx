@@ -32,7 +32,7 @@ export const TodoAdd = ({onNewTodo}) => {
          />
         <button 
             type="submit"
-            className="btn btn-outline-primary mt-1"
+            className="btn btn-primary mt-1"
         >
         Agregar
         </button>

@@ -8,10 +8,14 @@ button{
     margin-right: 10px;
 }
 
-.btn{
+/* .btn{
     background-color: blueviolet;
     border-color: rgb(27, 20, 29);
     color: white;
+} */
+
+a{
+    margin-right: 5px;
 }
 
 img{
