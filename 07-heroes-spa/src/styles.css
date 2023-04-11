@@ -2,3 +2,13 @@ body{
     background-color: #16161e;
     color:beige;
 }
+
+.card{
+    background-color: #272839;
+    color: beige;
+}
+
+.list-group-item{
+    background-color: #272839;
+    color: beige;
+}
